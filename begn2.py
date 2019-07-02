@@ -1,6 +1,6 @@
 num=int(input(""))
 if(num<=0):
-    print("invalid")
+    print("Invalid")
 elif(num%2!=0):
     print("Odd")
 else:
