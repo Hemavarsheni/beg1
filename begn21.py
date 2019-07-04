@@ -1,3 +1,3 @@
 n,a,d=map(int,input("").split())
-s=a+(n-1)*d
+s=n*a+n*d
 print(s)
