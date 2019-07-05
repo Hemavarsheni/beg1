@@ -11,6 +11,6 @@ for i in range(len(l)):
                 m=l[i]
                 n=l[j]
                 minv=m+n   
-print(n,m)
+print(m,n)
                    
                    
