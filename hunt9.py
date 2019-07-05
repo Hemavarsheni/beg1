@@ -7,7 +7,7 @@ c=0
 for i in range(len(l)):
     for j in range(0,len(l)):
         if(i!=j):
-            if(l[i]+l[j]<minv and l[i]+l[j]>=0):
+            if(abs(l[i]+l[j])<minv):
                 m=l[i]
                 n=l[j]
                 minv=m+n   
