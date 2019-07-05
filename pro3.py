@@ -1,12 +1,8 @@
 x,y=map(str,input("").split())
 d=abs(len(y)-len(x))
-c=0
-if (len(x)>len(y)):
-    n=len(x)
-else:
-    n=len(y)
-for i in range(0,n-d):
-    if(x[i] not in y[i]):
+for i in range(0,len(x)):
+    if(len(y)==1 and y[i] in x):
+        break
+    if (x[i]!=y[i]):
         c=c+1
-c=c+d
 print(c)
