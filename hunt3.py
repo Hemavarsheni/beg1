@@ -5,5 +5,8 @@ for i in range(len(l)):
     if(l[i]==i):
         m.append(l[i])
 m.sort()
-for i in m:
-    print(i,end=" ")
+if m:
+    for i in m:
+        print(i,end=" ")
+else:
+    print(-1)
