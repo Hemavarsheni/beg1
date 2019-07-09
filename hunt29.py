@@ -2,7 +2,9 @@ n=int(input(""))
 l=list(map(int,input("").split()))
 m=[]
 s=0
-for i in range(0,len(l)):
-    s=s+l[i]
-    m.append(s)
+for j in range(0,len(l)):
+    for i in range(i,len(l)):
+        s=s+l[i]
+        m.append(s)
+    s=0
 print(max(m))
