@@ -1,4 +1,4 @@
-n,k=map(int,input("").split())
+n1,k=map(int,input("").split())
 l=list(map(int,input("").split()))
 f=0
 for i in range(0,len(l)):
