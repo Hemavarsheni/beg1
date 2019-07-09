@@ -1,4 +1,4 @@
-n=int(input(""))
+ni=int(input(""))
 l=list(map(int,input("").split()))
 m=[]
 s=0
