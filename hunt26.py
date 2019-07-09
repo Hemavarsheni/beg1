@@ -1,4 +1,4 @@
-num=int(input(""))
+nu=int(input(""))
 l=list(map(int,input("").split()))
 l.sort()
 l.reverse()
