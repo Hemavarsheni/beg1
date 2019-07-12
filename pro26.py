@@ -11,8 +11,6 @@ for i in range(0,len(l)):
             m.append(t)
         elif(t==l[j]):
             continue
-        else:
-            break
     if(len(m)>maxv):
         maxv=len(m)
     else:
