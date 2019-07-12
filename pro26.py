@@ -1,11 +1,23 @@
 n=int(input())
 l=list(map(int,input().split()))
-t=l[0]
+t=0
 m=[]
-m.append(t)
+maxv=0
 for i in range(0,len(l)):
-    if(t<l[i]):
-        m.append(l[i])
-        t=l[i]
+    t=l[i]
+    m.append(t)
+    for j in range(i,len(l)):
+        if(t<l[j]):
+            m.append(t)
+        elif(t==l[j]):
+            continue
+        else:
+            break
+    if(len(m)>maxv):
+        maxv=len(m)
+    else:
+        m.clear()
+        t=0
 print(len(m))
+
 
