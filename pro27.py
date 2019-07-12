@@ -12,7 +12,7 @@ for i in range(0,len(w)):
             r=r+v[j]
         else:
             break
-    if(s>maxv):
+    if(s>maxv and r>=t):
         maxv=s
         t=r
     s=0
