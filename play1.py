@@ -1,2 +1,2 @@
-s=input()
-print(s[::-1])
+hemavarsheni=input()
+print(hemavarsheni[::-1])
