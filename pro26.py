@@ -8,6 +8,8 @@ for i in range(0,len(l)):
         if(t<=l[j]):
             c=c+1
             t=l[j]
+        elif(t==l[j]):
+            t=l[j]
         else:
             break
     if(c>maxv):
