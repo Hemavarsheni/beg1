@@ -1,0 +1,15 @@
+#Hemavarsheni
+n=input()
+if(n[::-1]==n):
+    print("yes")
+    exit(0)
+l=len(n)
+z="0"
+t=n
+while(l!=0):
+    t=z+t
+    if(t[::-1]==t):
+        print("yes")
+        exit(0)
+    l=l-1
+print("no")
