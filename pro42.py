@@ -8,6 +8,9 @@ p=0
 i=0
 s=0
 c=0
+if(k==1):
+    print(min(l))
+    exit(0)
 while(i<len(l)):
     if(r<k):
         for j in l[i:]:
