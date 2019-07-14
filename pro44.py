@@ -1,9 +1,9 @@
 #Hemavarsheni
-n,p,q,r=map(int,input().split())
-l=list(map(int,input().split()))
-r=[]
-for i in range(0,len(l)):
-    for j in range(i,len(l)):
-        for k in range(j,len(l)):
-            r.append(p*l[i]+q*l[j]+r*l[k])
-print(max(r))
+a,b,c,d=map(int,input().split())
+list1=list(map(int,input().split()))
+list2=[]
+for i in range(0,len(list1)):
+    for j in range(i,len(list1)):
+        for k in range(j,len(list1)):
+            list2.append(b*list1[i]+c*list1[j]+d*list1[k])
+print(max(list2))
