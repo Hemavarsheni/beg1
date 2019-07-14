@@ -9,10 +9,8 @@ while(i<len(l)):
         if(len(l)==1):
             c=1 
             break
-        else:
-            continue
     elif(i==len(l)-1):
-        continue
+        c=c
     else:
         if(t>l[i+1] and t>l[i-1]):
             c=c+1
