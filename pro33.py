@@ -1,9 +1,12 @@
 #Hemavarsheni
 s=str(input())
 t=""
-r=""
-for i in range(0,len(s)):
-    t=s[i:len(s)]
-    if(t>r):
+r=s
+f=0
+for i in range(1,len(s)):
+    t=s[i:]
+    if(t[0]>s[0]):
         r=t
-print(r)        
+        f=1
+        break
+print(r) 
