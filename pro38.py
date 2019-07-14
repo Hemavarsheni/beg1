@@ -13,6 +13,5 @@ while(i!=len(l)):
         t.append(r)
     i=i+1
 r=len(t)
-print(t)
 c=r//3
 print(c)    
