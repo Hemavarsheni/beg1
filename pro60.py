@@ -1,0 +1,17 @@
+#Hemavarsheni
+n=int(input())
+c=0
+r=0
+t=3
+i=3
+f=0
+while(f!=1):
+    if(t==0):
+        t=i*2
+        i=t
+    c=c+1 
+    if(c==n):
+        r=t
+        f=1
+    t=t-1
+print(r)
