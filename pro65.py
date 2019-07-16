@@ -11,4 +11,4 @@ d=decimal.Decimal(b)-decimal.Decimal(c)
 if(d==0.0):
     print("Bon Appetit")
 else:
-    print(d)
+    print(int(d))
