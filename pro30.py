@@ -3,6 +3,9 @@ import itertools
 n=str(input())
 r=[]
 l=list(itertools.permutations(n,len(n)))
+if(int(n)%8==0):
+    print("yes")
+    exit()
 for i in range(0,len(l)):
     if(int("".join(l[i]))%8==0):
         print("yes")
