@@ -24,5 +24,7 @@ for z in range(0,c):
     count=count+1
 for i in range(0,len(l)):
     for j in range(0,len(l[i])):
+        if(j==len(l[i])-1):
+            print(l[i][j])
+            break
         print(l[i][j],end=" ")
-    print("")
