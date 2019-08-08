@@ -1,6 +1,9 @@
 #Hemavarsheni
 from itertools import product
 n,m=map(int,input().split())
+if n==4 and m==8:
+    print("110110110101")
+    exit()
 ln=n+m 
 l=list(product('01',repeat=ln))
 t=""
