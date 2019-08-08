@@ -2,12 +2,10 @@
 from itertools import product
 n,m=map(int,input().split())
 ln=n+m 
-l=list(product('10',repeat=ln))
+l=list(product('01',repeat=ln))
 t=""
 r=[]
 for i in range(len(l)):
-    if(l[i][0]=="0" or l[i][len(l[i])-1]=="0"):
-        continue
     t=l[i][0]
     f=0
     t1="0"
