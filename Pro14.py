@@ -1,4 +1,4 @@
-#Hemavarsheni
+#HemavarsheniYelchur
 n,q=map(int,input().split())
 l=list(map(int,input().split()))
 r=""
