@@ -7,7 +7,6 @@ for i in range(0,len(l)):
         for j in range(0,len(l)):
             if(l[i]==l[j] and i!=j):
                 c=c+1
-                print(c)
                 l[i]="*"
                 l[j]="*" 
                 break 
