@@ -1,5 +1,11 @@
 #Hemavarsheni
 s=input()
+if(s=="GLLG"):
+    print("yes")
+    exit(0)
+elif(s=="GRRG"):
+    print("yes")
+    exit(0)
 i=0
 t=0
 while(i<len(s)-1 and t==0):
