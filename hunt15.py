@@ -25,8 +25,13 @@ for i in range(len(s)):
                 break 
     if(f==0):
         res2.append(s[i])
-for i in res1:
-    print(i,end=" ") 
-print("")
-for i in res2: 
-    print(i,end=" ")
+for i in range(0,len(res1)):
+    if(i==len(res1)-1):
+        print(res1[i])
+    else:
+        print(res1[i],end=" ")
+for i in range(0,len(res2)): 
+    if(i==len(res2)-1):
+        print(res2[i])
+    else:
+        print(res2[i],end=" ")
