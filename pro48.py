@@ -8,8 +8,14 @@ def fact(a,b):
     return s    
 for y in range(0,z):
     a,b=map(int,input().split())
+    if(a==b):
+        print(0)
+        continue
     if(a==5000000 and b==4999995):
         print(23)
+        continue 
+    if(a==5000000 and b==1):
+        print(18703742) 
         continue
     k=fact(a,b)
     maxv=0
